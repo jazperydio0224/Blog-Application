@@ -11,7 +11,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/test');
+mongoose.connect('mongodb+srv://user1:userpass@cluster0.5sw5j.mongodb.net/blogPostsDB');
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({
